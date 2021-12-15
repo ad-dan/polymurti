@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap");
+
+@font-face {
+  font-family: Minecraft;
+  src: url("./Minecraft.ttf");
+}
+
+:root {
+  font-family: "Rajdhani", sans-serif !important;
+}
+.nav-main {
+  padding: 2rem 0;
+}
+.nav-main > .col-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-replc {
+  height: 40rem;
+  width: 100%;
+  background: url("../assets/auto1.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image-main {
+}
+.intro {
+  padding: 10rem 2rem;
+}
+.intro-img-replc {
+  width: 100%;
+  height: 30rem;
+  /* background: url("../assets/carmain.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+body {
+  background: #ffd801;
+  color: black;
+  font-family: Minecraft, monospace !important;
+}
+.roadmap-item {
+  border-left: 4px solid black;
+  line-height: 1.7;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2rem 6rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.roadmap-header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.roadmap-head {
+  text-align: center;
+}
+/* .join-call {
+  min-height: 400px;
+  background: url("../assets/sharp.png");
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+} */
+
+.join-call-main {
+  padding: 5rem 0;
+}
+.join-call-header {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.foot-main {
+  min-height: 10rem;
+  padding: 4rem 0;
+}
+.join-call-text {
+  max-width: 400px;
+  line-height: 1.75;
+}
+.join-call-btn {
+  margin-top: 2rem;
+  background: #ee2f6a;
+  max-width: 8rem;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  border: 3px solid black;
+}
+.foot-ico-cont {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.foot-ico a {
+  display: block;
+  height: 2.8rem;
+  width: 2.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  margin-right: 1rem;
+  box-sizing: border-box;
+}
+.foot-ico img {
+  width: 1.44rem;
+  height: 1.44rem;
+}
+.nav-main-btn {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-main-logo {
+  font-size: 2.2rem;
+
+  letter-spacing: 1px;
+}
+.nav-main-btn a {
+  display: block;
+  height: 2.8rem;
+  width: 2.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  margin-right: 1rem;
+  box-sizing: border-box;
+}
+.nav-main-btn img {
+  width: 1.44rem;
+  height: 1.44rem;
+}
+.second-sec {
+  background: #ffd801;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.7;
+}
+.second-sec h1 {
+  font-weight: bold;
+}
+.gal img {
+  margin: 1rem 0;
+}
+.gal {
+  margin-bottom: 10rem;
+}
+#connect-btn {
+  border: 3px solid black;
+  padding: 0.5rem 0.7rem;
+}
+body {
+  overflow-x: hidden;
+}
+.join-call-btn-wrap {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+.join-call-btn-wrap:visited,
+.join-call-btn:hover {
+  color: white;
+}
